@@ -28,13 +28,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-recyclerview \
     android-support-v7-palette
 
-LOCAL_SRC_FILES := \
-    $(call all-java-files-under, src) \
-    $(call all-java-files-under, src_config) \
-    $(call all-proto-files-under, protos)
-
-LOCAL_RESOURCE_DIR := \
-    $(LOCAL_PATH)/res \
     prebuilts/sdk/current/support/v7/recyclerview/res \
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
